@@ -280,11 +280,13 @@ main section {
 .portfolio-item-container {
     display: flex;
     flex-wrap: wrap;
-    gap: 24px;
+    justify-content: space-between;
+    gap: 24px 15px;
 }
 
 .portfolio-item{
-    width: 30%;
+    width: 32%;
+    max-width: 424px;
 }
 
 .portfolio-item img {
