@@ -244,6 +244,7 @@ main section {
 .holiday-sale-banner {
     position: relative;
     height: 662px;
+    
 }
 
 .holiday-sale-banner .rectangle {
@@ -282,8 +283,13 @@ main section {
     gap: 24px;
 }
 
+.portfolio-item{
+    width: 30%;
+}
+
 .portfolio-item img {
     border-radius: 16px;
+    width: 100%;
     transition: all 0.2s ease;
 }
 
@@ -326,6 +332,7 @@ main section {
     border: 0;
     border-radius: 50px 0px 0px 50px;
     flex: 1 1 auto;
+    
 }
 
 .subscribe-form input[type="email"]:focus {
@@ -346,6 +353,7 @@ main section {
     background: #F00;
     border: 0;
     cursor: pointer;
+   
 }
 
 /* Footer Section Style */
