@@ -332,7 +332,7 @@ main section {
     border: 0;
     border-radius: 50px 0px 0px 50px;
     flex: 1 1 auto;
-    
+    outline: 1px solid #FFF;
 }
 
 .subscribe-form input[type="email"]:focus {
@@ -353,7 +353,7 @@ main section {
     background: #F00;
     border: 0;
     cursor: pointer;
-   
+    outline: 1px solid #F00;
 }
 
 /* Footer Section Style */
